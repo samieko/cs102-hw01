@@ -13,8 +13,6 @@ int main(int argc, char *argv[])
 
   switch (operator)
   {
-  /*x and y each can have 6 integer digits and 6 decimal digits.
-  The sums, differences, products, and quotients can also have 6 integer digits and 6 decimal digits.*/
     case '+':
       printf("%g\n", x + y);
       break;
